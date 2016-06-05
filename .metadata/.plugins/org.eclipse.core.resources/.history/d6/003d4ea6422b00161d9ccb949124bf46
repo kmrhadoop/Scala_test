@@ -1,13 +1,13 @@
 import scala.io._
 
 object shoppingCartApp extends App {
+
      println("***Shopping Cart***")
      println("Enter List of Items(Apple,Orange) separated by comma:")
      var cart = scala.io.StdIn.readLine.split(",").toList
     // Assinging the Cost of the items and initializing the shoppingcart 
      var shopCart=new shoppingCart(.60,.25,cart) 
 }
-
 
 //Shoppingcart for performing the cart operations
 class shoppingCart(var appleCost: Double, var orangeCost:Double, var cart: List[String])
@@ -35,11 +35,9 @@ class shoppingCart(var appleCost: Double, var orangeCost:Double, var cart: List[
          numberOfOranges+=1;
       }
   
-     //Calling simple offer function and re-assinging the count by removing the discounted items
-     var offeredCount=simpleOffer(numberOfApples,numberOfOranges)
      //Calling the calculate items
-     //calculateCost(aCost,numberOfApples,oCost,numberOfOranges)
-     calculateCost(aCost,offeredCount.apples,oCost,offeredCount.oranges)
+     calculateCost(aCost,numberOfApples,oCost,numberOfOranges)
+  
    
    }
    else
@@ -55,7 +53,7 @@ class shoppingCart(var appleCost: Double, var orangeCost:Double, var cart: List[
  //Class for Discounts 
  class offerApplied(var apples:Int,var oranges:Int)
  
- //Function to calculate the number of discounted items
+ //Function to calculate the number of discounted offer
  def simpleOffer(numberOfApples:Int,numberOfOranges:Int):offerApplied = {
    var offer=new offerApplied(0,0)
    if(numberOfApples==1) offer.apples=1
