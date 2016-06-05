@@ -1,0 +1,10 @@
+import scala.io._
+
+object shoppingCartApp extends App {
+
+     println("***Shopping Cart***")
+     println("Enter List of Items(Apple,Orange) in order separated by comma:")
+     var cart = scala.io.StdIn.readLine.split(",").toList
+    // val cart=List("Apple","Orange")
+     var shopCart=new shoppingCart(.60,.25,cart) 
+}

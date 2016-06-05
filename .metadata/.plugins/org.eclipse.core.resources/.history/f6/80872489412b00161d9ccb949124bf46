@@ -3,13 +3,13 @@ import scala.io._
 object shoppingCartApp extends App {
 
      println("***Shopping Cart***")
-     println("Enter List of Items(Apple,Orange) separated by comma:")
+     println("Enter List of Items(Apple,Orange) in order separated by comma:")
      var cart = scala.io.StdIn.readLine.split(",").toList
-    // Assinging the Cost of the items and initializing the shoppingcart 
+    // val cart=List("Apple","Orange")
      var shopCart=new shoppingCart(.60,.25,cart) 
 }
 
-//Shoppingcart for performing the cart operations
+
 class shoppingCart(var appleCost: Double, var orangeCost:Double, var cart: List[String])
 {
  var aCost:Double = appleCost
@@ -17,12 +17,7 @@ class shoppingCart(var appleCost: Double, var orangeCost:Double, var cart: List[
  var totalCost:Double=0
  var numberOfApples=0
  var numberOfOranges=0
- 
- //Calling the Number of items 
  calculateNoItems
- 
- //Implementation of number of items object 
- //responsible for calculating number of items
  object calculateNoItems {
    val items=cart
    if(items(0)!="")
@@ -34,17 +29,18 @@ class shoppingCart(var appleCost: Double, var orangeCost:Double, var cart: List[
        else if (name.toLowerCase().contains("orange"))
          numberOfOranges+=1;
       }
-  
-     //Calling the calculate items
+     //simple offer
+     //var offeredCount=simpleOffer(numberOfApples,numberOfOranges)
+     //Calculate the cost
      calculateCost(aCost,numberOfApples,oCost,numberOfOranges)
-  
+     //calculateCost(aCost,offeredCount.apples,oCost,offeredCount.oranges)
    
    }
    else
      println("Empty Cart")
   
  }
-//Calculate the cost of the items
+
  def calculateCost(aCost:Double,numberOfApples:Int,oCost:Double,numberOfOranges:Int){
       totalCost= aCost* numberOfApples + oCost* numberOfOranges;
       println("Here is the total Cost:"+totalCost)

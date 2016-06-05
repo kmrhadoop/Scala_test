@@ -8,3 +8,34 @@
 2016-06-05 18:01:31,436  WARN [main] - ScalaProject - Project shopping_Cart runs on platform default installation.
 2016-06-05 18:01:31,770  WARN [Worker-3] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
 2016-06-05 18:01:31,770  WARN [Worker-3] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:03:16,129  WARN [Worker-3] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:03:16,129  WARN [Worker-3] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:03:30,439  WARN [Worker-1] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:03:30,439  WARN [Worker-1] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:03:49,685  WARN [Worker-8] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:03:49,685  WARN [Worker-8] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:04:35,571  WARN [Worker-1] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:04:35,572  WARN [Worker-1] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:05:50,293  WARN [Worker-10] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:05:50,294  WARN [Worker-10] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:06:05,671  WARN [Worker-9] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:06:05,671  WARN [Worker-9] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:07:27,924  WARN [Worker-13] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:07:27,924  WARN [Worker-13] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:07:31,433  WARN [Worker-11] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:07:31,433  WARN [Worker-11] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:14:56,757  WARN [main] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:14:56,773  WARN [main] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:14:56,806  WARN [main] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:14:56,806  WARN [main] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:18:36,059  WARN [Worker-7] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:18:36,059  WARN [Worker-7] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:18:36,113  WARN [Worker-7] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:18:36,113  WARN [Worker-7] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:19:25,817  WARN [Worker-7] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:19:25,817  WARN [Worker-7] - ScalaProject - Project shopping_Cart runs on platform default installation.
+2016-06-05 18:20:12,861 ERROR [Worker-8] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2016-06-05 18:20:12,861 ERROR [Worker-8] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2016-06-05 18:20:12,861 ERROR [Worker-8] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2016-06-05 18:21:14,304  WARN [Worker-8] - ScalaProject - Project shopping_Cart has platform default sourceLevel.
+2016-06-05 18:21:14,304  WARN [Worker-8] - ScalaProject - Project shopping_Cart runs on platform default installation.

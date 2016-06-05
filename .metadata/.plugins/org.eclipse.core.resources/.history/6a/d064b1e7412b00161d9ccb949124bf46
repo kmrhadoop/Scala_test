@@ -3,7 +3,7 @@ import scala.io._
 object shoppingCartApp extends App {
 
      println("***Shopping Cart***")
-     println("Enter List of Items(Apple,Orange) separated by comma:")
+     println("Enter List of Items(Apple,Orange) in order separated by comma:")
      var cart = scala.io.StdIn.readLine.split(",").toList
     // Assinging the Cost of the items and initializing the shoppingcart 
      var shopCart=new shoppingCart(.60,.25,cart) 
